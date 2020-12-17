@@ -6,16 +6,16 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <h1>Hello, world!</h1>
-        <p>Welcome to your new single-page application, built with:</p>
+        <h1>Bem vindo a tela inicial!</h1>
+        <p>Bem-vindo ao seu novo aplicativo de pagina unica, desenvolvido com:</p>
         <ul>
-          <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-          <li><a href='https://facebook.github.io/react/'>React</a> for client-side code</li>
-          <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
+          <li><a href='https://get.asp.net/'>ASP.NET Core</a> e <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> para codigo de plataforma cruzada do lado do servidor.</li>
+          <li><a href='https://facebook.github.io/react/'>React</a> ao codigo do lado do cliente.</li>
+          <li><a href='http://getbootstrap.com/'>Bootstrap</a> para layout e estilo</li>
         </ul>
-        <p>To help you get started, we've also set up:</p>
+        <p> Para ajuda-lo a comecar, tambem configuramos: </p>
         <ul>
-          <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
+          <li><strong>Navegacao do lado cliente</strong>. Para exemplo, clique em <em>Counter</em> e depois <em>Back</em> para retornar aqui.</li>
           <li><strong>Development server integration</strong>. In development mode, the development server from <code>create-react-app</code> runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
           <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration produces minified, efficiently bundled JavaScript files.</li>
         </ul>
